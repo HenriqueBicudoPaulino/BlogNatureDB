@@ -5,6 +5,7 @@
         public Usuario Usuario { get; set; }
         public string Descricao { get; set; }
         public string Categoria { get; set; }
+        public DateTime HorarioDenuncia { get; set; }
         public Endereco Endereco { get; set; }
     }
 }
