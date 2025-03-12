@@ -9,7 +9,7 @@
         public DateTime DateTime { get; set; }
         public string Responsavel { get; set; }
         public string Impactos { get; set; }
-        public File Arquivo { get; set; }
+        public byte[] Arquivo { get; set; }
         public bool Anonimato { get; set; }
     }
 }
